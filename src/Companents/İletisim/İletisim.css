@@ -1,0 +1,26 @@
+.İletisim {
+    height: 47px;
+    flex-shrink: 0;
+    background: #2D3D88;
+}
+.tel{
+    width: 116px;
+    font-size: 15px;
+    line-height: 22.89px;  
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    padding: 11px 860px;
+    font-family: Open Sans, var(--default-font-family);
+    font-weight: 600;
+}
+.e-mail {
+    font-size: 15px;
+    line-height: 22.89px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    padding: 11px 1030px;
+}

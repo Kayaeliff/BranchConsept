@@ -1,0 +1,533 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+}
+
+.About-container,
+.About-container * {
+    box-sizing: border-box;
+}
+.About-container {
+    height: 4120px;
+    position: relative;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+
+}
+.about-img{
+    position: relative;
+    width: 1681px;
+    height: 554px;
+    background: url(../../assets/about-content.png)
+        no-repeat center;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+   
+}
+.context {
+    position: relative;
+    width: 1126px;
+    height: 548px;
+    margin: 0 auto;
+    font-size: 0px;
+    top: 38px;
+}
+.our-text-about{
+    display: block;
+    position: relative;
+    height: 38px;
+    margin: 16px 0 0 446px;
+    color: #000000;
+    font-family: Syne, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+}
+.acıklama-about{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 709px;
+    height: 49px;
+    margin: 5px 0 0 208px;
+    color: #000000;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 18.566299438476562px;
+    font-weight: 400;
+    line-height: 25.284px;
+    text-align: center;
+    z-index: 2;
+}
+.üst-ellips-img {
+    position: absolute;
+    width: 1125px;
+    height: 54px;
+    top: 128px;
+    left: 50%;
+    background: url(../../assets/üst-Ellipse.png)
+        no-repeat center;
+    background-size: cover;
+    transform: translate(-49.96%, 0);
+    z-index: 10;
+}
+.about-group {
+    position: absolute;
+    width: 1108px;
+    height: 360px;
+    top: 159px;
+    left: 12px;
+    z-index: 4;
+    overflow: hidden;
+}
+.beyaz-masa-img {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 0;
+    left: 0;
+    background: url(../../assets/beyaz-masa.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 5;
+}
+.gri-koltuk-img{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 0;
+    left: 371px;
+    background: url(../../assets/gri-koltuk.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 6;
+}
+.yeşil-koltuk-img{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 0;
+    left: 742px;
+    background: url(../../assets/yeşil-koltuk.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 7;
+}
+.alt-ellips-img {
+    position: absolute;
+    width: 1125px;
+    height: 54px;
+    top: 494px;
+    left: 50%;
+    background: url(../../assets/alt-Ellipse.png)
+    no-repeat center;
+    background-size: cover;
+    transform: translate(-50.04%, 0);
+    z-index: 11;
+}
+.mybranch-fonksiyon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 975px;
+    height: 49px;
+    margin: 152px 0 0 366px;
+    color: rgba(0, 0, 0, 0.65);
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 18.57px;
+    font-weight: 400;
+    line-height: 25.28px;
+    text-align: center;
+    z-index: 58;
+}
+.misyon-vizyon-img {
+    position: relative;
+    width: 1682px;
+    height: 374px;
+    margin: 0 auto;
+    background: #29428d;
+    top: 276px;
+}
+.ok1 {
+    position: absolute;
+    width: 22.5%;
+    height: 130.48%;
+    top: -22.45%;
+    left: 80.39%;
+    background: url(/src/assets/ok1.png)
+    no-repeat center;
+    background-size: 80% 66%;
+    z-index: 1;
+}
+.ok2{
+    position: absolute;
+    width: 36.63%;
+    height: 162.03%;
+    top: -8.47%;
+    left: 30.61%;
+    background: url(/src/assets/ok2.png)
+    no-repeat center;
+    z-index: 3;
+}
+.ok3{
+    position: absolute;
+    width: 38.63%;
+    height: 176.03%;
+    top: -38.47%;
+    left: -13.39%;
+    background: url(/src/assets/ok3.png)
+    no-repeat center;
+    background-size: 36% 56%;
+    z-index: 3;
+}
+.box-misyon {
+    position: absolute;
+    width: 408px;
+    height: 206px;
+    left: 941px;
+    z-index: 18;
+}
+    .misyon-img{
+    position: relative;
+    width: 65px;
+    height: 65px;
+    margin: 0 0 0 172px;
+    background: url(../../assets/misyon.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 19;
+    }
+    .misyon-text {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        width: 101px;
+        height: 33px;
+        margin: 9px 0 0 154px;
+        color: #ffffff;
+        font-family: Open Sans, var(--default-font-family);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32.684px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 20;
+    }
+    .misyon-text-açılama{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        width: 408px;
+        height: 88px;
+        margin: 11px 0 0 0;
+        color: #ffffff;
+        font-family: Open Sans, var(--default-font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.789px;
+        text-align: center;
+        z-index: 21;
+    }
+.box-vizyon{
+    position: absolute;
+    width: 414px;
+    height: 206px;
+    left: 335px;
+    z-index: 18;
+}
+.vizyon-img {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    margin: 0 0 0 172px;
+    background: url(../../assets/vizyon.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 19;
+}
+ .vizyon-text{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        width: 81px;
+        height: 33px;
+        margin: 9px 0 0 141px;
+        color: #ffffff;
+        font-family: Open Sans, var(--default-font-family);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32.684px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 16;
+        left: 24px;
+        }
+ .vizyon-text-acıklama {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        width: 348px;
+        height: 88px;
+        margin: 11px 0 0 0;
+        color: #ffffff;
+        font-family: Open Sans, var(--default-font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.789px;
+        text-align: center;
+        z-index: 17;
+        left: 22px;
+        }
+   
+.metin {
+    position: relative;
+    width: 1077px;
+    height: 368px;
+    margin: 0 auto;
+    font-size: 0px;
+    top: 440px;
+    }
+ .metin-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 1077px;
+    height: 135px;
+    margin: 0 0 0 0;
+    color: #000000;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.236px;
+    text-align: center;
+    }
+ .metin-text-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 1015px;
+    height: 162px;
+    margin: 71px 0 0 31px;
+    color: #000000;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.236px;
+    text-align: center;
+    z-index: 1;
+    }
+    .what-img{
+        position: relative;
+        width: 1095px;
+        height: 290px;
+        margin: 0 auto;
+        background: url(../../assets/what.png);
+        top: 534px;
+    }
+    .marka-about{
+        position: relative;
+        top: -248px;
+        left: 167px;
+    }
+    .custom-about {
+        position: relative;
+        width: 426px;
+        height: 38px;
+        margin: 35px 0 0 300px;
+        font-family: Open Sans, var(--default-font-family);
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+        text-align: left;
+        text-overflow: initial;
+        white-space: nowrap;
+        top: 935px;
+        left: 200px;
+      }
+      
+      .custom-text-about {
+        position: relative;
+        color: #000000;
+        font-family: Syne, var(--default-font-family);
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 43.578px;
+        text-align: left;
+        text-transform: uppercase;
+      }
+      
+      .highlighted-title-text-about {
+        position: relative;
+        color: #000000;
+        font-family: Syne, var(--default-font-family);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 43.578px;
+        text-align: left;
+        text-transform: uppercase;
+      }
+      
+      .description-text-about {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        width: 751px;
+        height: 36px;
+        margin: 16px 0 0 142px;
+        color: #000000;
+        font-family: Open Sans, var(--default-font-family);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17.704px;
+        text-align: center;
+        z-index: 1;
+        top: 942px;
+          left: 141px;
+      }
+      
+      .clients-sectio-about {
+        position: relative;
+        width: 1039.646px;
+        height: 56.095px;
+        margin: 50px 0 0 0;
+        z-index: 12;
+        top:945px;
+        left: 180px;
+      }
+      
+      .client-image-1-about {
+        position: absolute;
+        width: 157.766px;
+        height: 56.095px;
+        top: 0;
+        left: 0;
+        background: url(../../assets/samsung.png)
+            no-repeat center;
+        background-size: cover;
+        z-index: 11;
+      }
+      
+      .client-image-2-about {
+        position: absolute;
+        width: 123.408px;
+        height: 56.095px;
+        top: 0;
+        left: 232.877px;
+        background: url(../../assets//gorej.png)
+            no-repeat center;
+        background-size: cover;
+        z-index: 12;
+      }
+      
+      .client-logo-1-about {
+        position: absolute;
+        width: 215.748px;
+        height: 56.095px;
+        top: 0;
+        left: 420.032px;
+        background: url(../../assets/axis.png)
+            no-repeat center;
+        background-size: cover;
+        z-index: 10;
+      }
+      
+      .client-logo-2-about {
+        position: absolute;
+        width: 127.488px;
+        height: 47.595px;
+        top: 4.25px;
+        left: 705.471px;
+        background: url(../../assets/brigestone.png)
+            no-repeat center;
+        background-size: cover;
+        z-index: 9;
+      }
+      
+      .client-logo-3-about {
+        position: absolute;
+        width: 128.495px;
+        height: 40.796px;
+        top: 7.649px;
+        left: 911.151px;
+        background: url(../../assets//bajaj.png)
+            no-repeat center;
+        background-size: cover;
+        z-index: 8;
+      }
+      
+      .additional-clients-wrapper-about {
+        position: relative;
+        width: 733.478px;
+        height: 56.095px;
+        margin: 50.995px 0 0 147.886px;
+        z-index: 7;
+        top: 950px;
+        left: 182px;
+      }
+      
+      .client-logo-4-about {
+        position: absolute;
+        width: 100.503px;
+        height: 56.095px;
+        top: 0;
+        left: 0;
+        background: url(../../assets/adiya.png)
+            no-repeat center;
+        background-size: cover;
+        z-index: 4;
+      }
+      
+      .client-image-3-about {
+        position: absolute;
+        width: 148.336px;
+        height: 47.595px;
+        top: 4.25px;
+        left: 179.333px;
+        background: url(../../assets/reliance.png)
+            no-repeat center;
+        background-size: cover;
+        z-index: 5;
+      }
+      
+      .client-image-4-about {
+        position: absolute;
+        width: 131.737px;
+        height: 24.19px;
+        top: 16.148px;
+        left: 409.66px;
+        background: url(../../assets/canara.png)
+            no-repeat center;
+        background-size: cover;
+        z-index: 6;
+      }
+      
+      .client-image-5-about {
+        position: absolute;
+        width: 102.84px;
+        height: 47.992px;
+        top: 4.25px;
+        left: 630.638px;
+        background: url(../../assets/media.png)
+            no-repeat center;
+        background-size: cover;
+        z-index: 7;
+      }
+      .about-footer {
+        position: relative;
+        top: 860px;
+      }

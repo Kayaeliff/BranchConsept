@@ -1,0 +1,383 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+        "Source Han Sans CN", sans-serif;
+}
+
+.footer-container {
+    overflow: hidden;
+}
+
+.footer-container,
+.footer-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.footer-container {
+    position: relative;
+    width: 1685px;
+    height: 571px;
+    margin: 0 auto;
+    background: linear-gradient(117deg, #29428d 73.95%, #ae4ab7);
+    overflow: hidden;
+}
+.fotoğraf {
+    position: absolute;
+    width: 37.6%;
+    height: 128.12%;
+    top: -16.67%;
+    left: 38.38%;
+    font-size: 0px;
+    background: url(../assets/images/27485786-3b74-4089-8148-a31615f4117e.png)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.Kurumsal-Ofis {
+    display: block;
+    position: relative;
+    height: 25px;
+    margin: 278px 0 0 30px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 20.03125px;
+    font-weight: 700;
+    line-height: 24.037px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+}
+.text_2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 305.477px;
+    height: 72.113px;
+    margin: 10px 0 0 30px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 14.02187442779541px;
+    font-weight: 400;
+    line-height: 24.037px;
+    text-align: left;
+    z-index: 8;
+}
+.Kayıtlı-Ofis {
+    display: block;
+    position: relative;
+    height: 25px;
+    margin: 25.887px 0 0 30px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 20.03125px;
+    font-weight: 700;
+    line-height: 24.037px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+}
+.text_4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 294px;
+    height: 72px;
+    margin: 10px 0 0 30px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 14.02187442779541px;
+    font-weight: 400;
+    line-height: 24.037px;
+    text-align: left;
+    z-index: 12;
+}
+.Varoluşumuz{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 27px;
+    top: 23px;
+    left: 97px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 32;
+}
+.markalar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 1099px;
+    height: 95px;
+    top: 61px;
+    left: 97px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.065px;
+    text-align: left;
+    z-index: 31;
+}
+.Faydalı-Linkler {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 25px;
+    top: 190px;
+    left: 97px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 20.03125px;
+    font-weight: 700;
+    line-height: 24.037px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 16;
+}
+.class{
+    position: absolute;
+    width: 160px;
+    height: 150px;
+    top: 226px;
+    left: 296px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 14.02187442779541px;
+    font-weight: 400;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 6;
+    overflow: hidden;
+}
+.sepet{
+    position: absolute;
+    width: 98.153px;
+    height: 261.23px;
+    top: 226px;
+    left: 97px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 14.02187442779541px;
+    font-weight: 400;
+    line-height: 24.037px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 15;
+    overflow: hidden;
+}
+
+
+.face {
+    position: absolute;
+    width: 30.482px;
+    height: 30.482px;
+    top: 234px;
+    left: 1400.46px;
+    z-index: 18;
+    overflow: hidden;
+}
+.facebook {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 19;
+}
+.face-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/ins2.svg)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 20;
+}
+.intagram {
+    
+    overflow: hidden;
+
+    position: absolute;
+    width: 30.482px;
+    height: 30.482px;
+    top: 234px;
+    left: 1439.91px;
+    z-index: 26;
+    overflow: hidden;
+}
+.intagram-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/twitter.svg)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 22;
+}
+.twitter {
+    position: absolute;
+    width: 30.482px;
+    height: 30.482px;
+    top: 234px;
+    left: 1520.82px;
+    z-index: 23;
+    overflow: hidden;
+}
+.twitter-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 24;
+}
+.twitter-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/linke.svg)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 25;
+}
+.youtube {
+    position: absolute;
+    width: 30.482px;
+    height: 30.482px;
+    top: 234px;
+    top: 234px;
+left: 1480.37px;
+    z-index: 21;
+}
+.youtube-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/youtube.svg)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 27;
+}
+.linkedin {
+    position: absolute;
+    width: 30.482px;
+    height: 30.297px;
+    top: 234px;
+   left: 1357px;
+    z-index: 28;
+    overflow: hidden;
+}
+.linkedin-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 29;
+}
+.linkedin-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../../assets/facebook.svg)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 30;
+}
+.dowload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 191px;
+    height: 6.82%;
+    top: 55.11%;
+    left: 78.08%;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 11.788725852966309px;
+    font-weight: 700;
+    line-height: 17.683px;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 3;
+}
+.google {
+    position: absolute;
+    width: 10.83%;
+    height: 9.47%;
+    top: 61.93%;
+    left: 74.41%;
+    background: url(../../assets/google.png)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 4;
+}
+.uygulama{
+    position: absolute;
+    width: 10.83%;
+    height: 8.87%;
+    top: 62.31%;
+    left: 84.95%;
+    background: url(../../assets/apple.png)
+        no-repeat center;
+    background-size: 100% 100%;
+    z-index: 5;
+}
+.apple {
+    position: absolute;
+    width: 20.58%;
+    height: 29.59%;
+    top: 72.12%;
+    left: 75.24%;
+    background: url(../../assets/uygulama.png)
+        no-repeat center;
+    background-size: cover;
+    z-index: 2;
+}
+.footer-copyright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 23px;
+    top: 543px;
+left: 171px;
+    color: #ffffff;
+    font-family: Open Sans, var(--default-font-family);
+    font-size: 14.02187442779541px;
+    font-weight: 600;
+    line-height: 22.929px;
+    text-align: left;
+    text-transform: capitalize;
+    white-space: nowrap;
+    z-index: 13;
+}

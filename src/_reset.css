@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img,
+picture {
+  display: block;
+  user-select: none;
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: var(--color-element-dark);
+  
+  transition-duration: 0.25s;
+}
+a {
+  cursor: pointer;
+}
+
+textarea {
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,79 @@
+.home-hero {
+    margin-bottom: 5rem;
+    background-image: url("../../assets/Frame 752.png");
+    background-position: center;
+    background-size: cover;
+   
+}
+@media screen and (min-width: 768px) {
+    .home-hero {
+        background-size: cover;
+        background-image: url("../../assets/Frame 752.png");
+    }
+}
+@media screen and (min-width: 1024px) {
+    .home-hero {
+        margin-bottom: 10rem;
+        background-size: cover;
+        background-image: url("../../assets/Frame 752.png");
+    }
+}
+.home-product-categories, .home-featured-product, .home-claim {
+    margin-bottom: 12rem;
+}
+@media screen and (min-width:1024px){
+    .home-product-categories,  .home-featured-product, .home-claim{
+        margin-bottom: 18rem;
+    }
+}
+.form-container {
+    display: inline-flex;
+    padding: 57.172px 60.899px 39.411px 42px;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20.285px;
+    background: #D33C92;
+    width: 1380px;
+    height: 151px;
+    position: absolute;
+    top: 80%;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+.form-container .title {
+    position: absolute;
+    top: 16%;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 17.113px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+select {
+    display: flex;
+    padding: 11.066px 58.099px 8.066px 5.126px;
+    justify-content: center;
+    align-items: center;
+    gap: 44.292px;
+}
+.button {
+    background: #29428D;
+    padding: 9.066px 7.133px;
+    color: #FFF;
+}
+.form-container input {
+    display: flex;
+    padding: 10.066px 127.597px 8.066px 32.133px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.066px;
+}
+.locations-wrapper {
+    margin-top: 1001px; /* Main bileşeninden sonra 20px boşluk */
+     /* Footer'dan önce 40px boşluk */
+  }
+  
