@@ -11,6 +11,6 @@ Currently, two official plugins are available:
 <p align="center"><img src="./src/assets/Adsız2.png" alt="WORKSPACES THAT FITYOUR BUSINESS NEEDS" align="center"><p>
 
 <p align="center"><img src="./src/assets/amazin.png" alt="Cheers to 8 amazing years of growth" align="center"><p>
-<p align="center"><img src="./src/assets/Adsız 5.png.png" alt="Cheers to 8 amazing years of growth" align="center"><p>
+<p align="center"><img src="./src/assets/Adsız 5.png" alt="Cheers to 8 amazing years of growth" align="center"><p>
 <p align="center"><img src="./src/assets/Adsız 6.png" alt="Cheers to 8 amazing years of growth" align="center"><p>
 
