@@ -10,4 +10,4 @@ Currently, two official plugins are available:
 
 <p align="center"><img src="./src/assets/about-content.png" alt="WORKSPACES THAT FITYOUR BUSINESS NEEDS" align="center"><p>
 
-<p align="center"><img src="./src/assets/amazin.png" alt="Cheers to 8 amazing years of growth" align="center"><p>
+<p align="center"><img src="./src/assets/amazing.png" alt="Cheers to 8 amazing years of growth" align="center"><p>
