@@ -8,6 +8,6 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # BranchConsept
 
-<p align="center"><img src="./src/assets/Adsız2.png" alt="WORKSPACES THAT FITYOUR BUSINESS NEEDS" align="center"><p>
+<p align="center"><img src="./src/assets/about-content.png" alt="WORKSPACES THAT FITYOUR BUSINESS NEEDS" align="center"><p>
 
 <p align="center"><img src="./src/assets/Adsız3.png" alt="Cheers to 8 amazing years of growth" align="center"><p>
